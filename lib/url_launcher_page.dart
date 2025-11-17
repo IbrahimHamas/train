@@ -19,8 +19,8 @@ class _HomeState extends State<Home> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              TextButton(onPressed: calling, child: Text("Phone Call")),
-              TextButton(onPressed: sendSMS, child: Text("Send SMS ")),
+              TextButton(onPressed: calling, child: const Text("Phone Call")),
+              TextButton(onPressed: sendSMS, child: const Text("Send SMS ")),
               TextButton(onPressed: email, child: Text("Send Email")),
               TextButton(onPressed: whatsapp, child: Text("Whats App")),
               TextButton(onPressed: messenger, child: Text("Messenger")),

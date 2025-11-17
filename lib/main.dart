@@ -1,4 +1,6 @@
-import 'package:example/home.dart';
+import 'package:example/add_audio.dart';
+import 'package:example/qipla_compass_page.dart';
+import 'package:example/url_launcher_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,6 +34,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Home());
+        home: AudioPlayerScreen());
   }
 }
